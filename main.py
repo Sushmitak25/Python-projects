@@ -96,13 +96,7 @@ while machine_on:
             payment = coins()
             if transaction(payment, drink["cost"]):
                 make_coffee(u_choice, drink["ingredients"])
-    # elif u_choice in MENU:
-    #     drink = MENU[u_choice]
-    #     if check_available(drink["ingredients"]):
-    #         payment = coins()
-    #         if transaction(payment, drink["cost"]):
-    #             make_coffee(choice, drink["ingredients"])
-    #     print("❓ Invalid option. Please choose again.")
+    
 
 
 
